@@ -19,8 +19,6 @@ const RootLayout = ({children}) => {
                 <main className='app'>
                     <Nav />
                     {children}
-                </main>
-            </Provider>
 <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
@@ -51,6 +49,9 @@ const RootLayout = ({children}) => {
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+                </main>
+            </Provider>
+
         </body>
     </html>
   )
